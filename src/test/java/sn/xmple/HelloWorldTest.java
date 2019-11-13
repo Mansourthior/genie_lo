@@ -17,17 +17,17 @@ public class HelloWorldTest {
 
     @Test
 	public void testGetMessage() {
-		assertEquals("Hello World!", h.getMessage(null));
+		assertEquals("Hello World", h.getMessage(null));
 	}
 
 	@Test
 	public void testGetMessage2() {
-		assertEquals("Hello moussa Tonux!", h.getMessage("Tonux"));
+		assertEquals("Hello moussa Tonux", h.getMessage("Tonux"));
 	}
 
 	@Test
 	public void testGetMessage3() {
-		assertEquals("Hello Mansour!", h.getMessage("Mansour"));
+		assertEquals("Hello Mansour", h.getMessage("Mansour"));
 	}
 
 	@Test
